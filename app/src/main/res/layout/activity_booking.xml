@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Domestic Help"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#172554"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Booking"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:id="@+id/tvWorker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👤 Worker Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#536DFE"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🛠 Service: Cleaning"
+            android:textSize="17sp"
+            android:textColor="#444444"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvLocality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Location: Rajpur Road"
+            android:textSize="17sp"
+            android:textColor="#444444"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Tap to select date"
+            android:focusable="false"
+            android:clickable="true"
+            android:padding="12dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Time"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+
+        <EditText
+            android:id="@+id/etTime"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Tap to select time"
+            android:focusable="false"
+            android:clickable="true"
+            android:padding="12dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Additional Notes"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+
+        <EditText
+            android:id="@+id/etNotes"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:hint="Any additional instructions..."
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:id="@+id/btnConfirmBooking"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Confirm Booking"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#536DFE"
+            android:layout_marginBottom="25dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+

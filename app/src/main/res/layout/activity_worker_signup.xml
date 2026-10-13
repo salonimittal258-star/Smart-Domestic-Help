@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Worker Sign Up"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <EditText
+            android:id="@+id/etWorkerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/etWorkerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/etWorkerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/etWorkerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/etWorkerService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Service (e.g. Cleaning, Plumbing)"
+            android:inputType="text"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/etWorkerLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Locality"
+            android:inputType="text"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/etWorkerExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Experience (in years)"
+            android:inputType="number"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnWorkerSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Worker Account" />
+
+    </LinearLayout>
+
+</ScrollView>

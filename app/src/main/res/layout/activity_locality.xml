@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp"
+        android:gravity="center_horizontal">
+
+        <!-- App Name -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Domestic Help"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#172554"
+            android:gravity="center"
+            android:layout_marginTop="80dp" />
+
+        <!-- Selected Service -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected Service"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:gravity="center"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/tvSelectedService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cleaning"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#536DFE"
+            android:gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Location Heading -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Choose Your Location"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="18dp" />
+
+        <!-- Locations -->
+
+        <Button
+            android:id="@+id/btnRajpurRoad"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Rajpur Road"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#536DFE"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnBallupur"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Ballupur"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00A896"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnPremNagar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Prem Nagar"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F59E0B"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnClementTown"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Clement Town"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#EC4899"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnISBT"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ISBT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#8B5CF6"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnSahastradhara"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Sahastradhara"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#14B8A6"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnDalanwala"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Dalanwala"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6366F1"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnDoiwala"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Doiwala"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0F766E"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnKargiChowk"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Kargi Chowk"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7C3AED"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnRaceCourse"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Race Course"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#DB2777"
+            android:layout_marginBottom="25dp" />
+
+    </LinearLayout>
+
+</ScrollView>

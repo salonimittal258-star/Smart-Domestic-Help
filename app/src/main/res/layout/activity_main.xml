@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="22dp">
+
+            <!-- App Name -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="50dp"
+                android:layout_marginTop="45dp"
+                android:background="#F5FFFFFF">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Smart Domestic Help"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#172554"
+                    android:gravity="center"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reliable help, right at your doorstep"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_marginTop="28dp" />
+
+            </LinearLayout>
+
+            <!-- Welcome Text -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Home. Your Help. Your Comfort."
+                android:textSize="20sp"
+                android:textColor="#172554"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="25dp"
+                android:shadowColor="#000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4" />
+
+            <!-- Login Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="22dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="25dp"
+                android:background="#F5FFFFFF">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continue as:"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:textColor="#172554"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp" />
+
+                <!-- User Login -->
+                <Button
+                    android:id="@+id/btnUserLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="User Login"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:backgroundTint="#4F46E5" />
+
+                <!-- Worker Login -->
+                <Button
+                    android:id="@+id/btnWorkerLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Worker Login"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:backgroundTint="#00897B" />
+
+            </LinearLayout>
+
+            <!-- Bottom Text -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book  •  Connect  •  Get Help"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:layout_marginBottom="30dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

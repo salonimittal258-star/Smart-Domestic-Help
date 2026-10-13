@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Domestic Help"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#172554"
+            android:gravity="center"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome! What service do you need?"
+            android:textSize="17sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="25dp" />
+
+        <!-- Section Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose a Service"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginBottom="18dp" />
+
+        <!-- Cleaning -->
+        <Button
+            android:id="@+id/btnCleaning"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="  Cleaning"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:backgroundTint="#536DFE"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Plumbing -->
+        <Button
+            android:id="@+id/btnPlumbing"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="  Plumbing"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:backgroundTint="#00A896"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Electrician -->
+        <Button
+            android:id="@+id/btnElectrician"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="  Electrician"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:backgroundTint="#F59E0B"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Cook -->
+        <Button
+            android:id="@+id/btnCook"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="  Cook"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:backgroundTint="#EC4899"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Maid -->
+        <Button
+            android:id="@+id/btnMaid"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="  Maid"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:backgroundTint="#8B5CF6"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Babysitter -->
+        <Button
+            android:id="@+id/btnBabysitter"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="  Babysitter"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:backgroundTint="#14B8A6"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Bottom Message -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose a service to get started."
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:gravity="center"
+            android:layout_marginBottom="25dp" />
+
+    </LinearLayout>
+
+</ScrollView>

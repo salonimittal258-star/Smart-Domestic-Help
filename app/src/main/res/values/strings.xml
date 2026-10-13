@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Domestic Help</string>
+
+    <string name="user_sign_up">User Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+
+</resources>
